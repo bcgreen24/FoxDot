@@ -53,7 +53,7 @@
         # Changing scale as a keyword argument
         p1 >> pads([0,7,6,4], scale=Scale.minor)
 
-        # Changing the default scalew (the following are equivalent)
+        # Changing the default scale (the following are equivalent)
         Scale.default.set("minor")
         Scale.default.set(Scale.minor)
         Scale.default.set([0,2,3,5,7,8,10])
